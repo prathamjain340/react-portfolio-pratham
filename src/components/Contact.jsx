@@ -15,11 +15,6 @@ const Contact = () => {
                 className="text-center tracking-tighter">
                 <motion.p
                     whileInView={{ x: 0, opacity: 1 }}
-                    initial={{ x: -100, opacity: 0 }}
-                    transition={{ duration: 1 }}
-                    className="my-4">{CONTACT.address}</motion.p>
-                <motion.p
-                    whileInView={{ x: 0, opacity: 1 }}
                     initial={{ x: 100, opacity: 0 }}
                     transition={{ duration: 1 }}
                     className="my-4">{CONTACT.phoneNo}</motion.p>
